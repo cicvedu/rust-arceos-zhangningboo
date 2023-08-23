@@ -15,7 +15,9 @@ fn main() {
     println!("Hello, world!");
 
     let times = 2;
+    // println!("Stdout: ", "Hello, world![{}]", times);
     println_prefix!("Stdout: ", "Hello, world![{}]", times);
+
 
     println!("\n[ArceOS Tutorial]: A0 okay!");
 }
